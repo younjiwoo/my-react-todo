@@ -1,7 +1,5 @@
-// This file sets up a route, but it's not connected to any of the app's other files yet. 
-
 import React from 'react'
-// Using {Route} imports one specific module - the Route module - from react-router - and names it Route.
+// Using {Route} imports one specific module - the Route module - from react-router - and names it Route. Without the {}, the import it would have grabbed all of react-router functionality.
 import {Route} from 'react-router'
 import App from '../App'
 import TodosContainer from '../containers/TodosContainer'
